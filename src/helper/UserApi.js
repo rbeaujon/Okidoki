@@ -2,7 +2,7 @@
 
 const UserApi = async (parm) => {
 
-	const URL = 'http://rbeaujon.com/okidoki/server/api/users/';
+	const URL = 'http://api.rbeaujon.com/users/';
 	const options = {    
 		method: 'POST',
 		body: JSON.stringify(parm),
