@@ -3,14 +3,17 @@ import React from 'react'
 import CustomButton from '../../components/CustomButton';
 
 import 'react-native-gesture-handler';
+import InfoMenu from '../../navigation/InfoMenu/InfoMenu';
 
 const Home = (props) => {
-
   return (
-	<View  style={styles.container} >
-	
-		<Text style={styles.container}>Home</Text>
-	  	<CustomButton name='LogOut' onPress={() => props.navigation.replace('SignIn')}/>
+	<View>
+		<InfoMenu  navigation={props.navigation}/>
+		<View  style={styles.container} >
+			
+			<Text style={styles.container}>Home</Text>
+			
+		</View>
 	</View>
   )
 }

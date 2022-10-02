@@ -1,12 +1,12 @@
 import React from 'react';
-import {Button, SafeAreaView, StyleSheet} from 'react-native';
+import {SafeAreaView, StyleSheet, StatusBar} from 'react-native';
 import Navigation from './src/navigation';
-import DrawerNavigator from './src/navigation/DrawerNavigator';
 
 const App = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#00BCD4" translucent = {true}/>
         <Navigation />
     </SafeAreaView>
   );

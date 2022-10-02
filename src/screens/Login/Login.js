@@ -1,16 +1,18 @@
-import {View, Text, Image, StyleSheet, Button} from 'react-native';
-import React, {useEffect, useState} from 'react';
+import {View, Image, StyleSheet} from 'react-native';
+import React, {useContext, useState} from 'react';
 import Doit from '../../../assets/images/doit.png';
 import Input from '../../components/CustomInput/CustomInput';
 import CustomButton from '../../components/CustomButton/';
-import UserApi from '../../helper/UserApi'
+import UserApi from '../../helper/Users/'
+import { LoginContext } from '../../helper/Context/Context';
 
 
 const Login = (props) => {
 
-  const [user, setUser] = useState('');
+  const [user, setUser] = useContext(LoginContext);
   const [pass, setPass] = useState('');
-
+  
+props.Logout && setUser('') && setPass('')
 
   const signIn = async () => {
     
@@ -20,9 +22,9 @@ const Login = (props) => {
     };
     
     const response = await UserApi(parm);
-    if(response){
-        const data = JSON.stringify(response);
-        setUser(data)
+    if(response.isLogged){
+        const data = response.data;
+        setUser(data.user) 
         props.navigation.replace('Main');
     } else {
       console.warn("Validation Error")
