@@ -17,3 +17,4 @@ web-build/
 
 # API SERVER
 server/
+.htaccess
