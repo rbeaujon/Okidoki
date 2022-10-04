@@ -9,15 +9,16 @@ import bg from '../../../assets/images/welcome.jpg';
 const Home = (props) => {
   return (
 	<View style={styles.container}>
-
 		<View>
-			<InfoMenu style={styles.menu} navigation={props.navigation}/>
-			<Image source={bg} style={styles.bg} />
-			
-			<View style={styles.data}>
-				<Text style={styles.info}>Some information can be here</Text>
-			</View>
+			<InfoMenu  navigation={props.navigation}/>
 		</View>
+		<View> 
+			<Image source={bg} style={styles.bg} /> 
+		</View> 
+		<View >
+			<Text style={styles.info}>Some information can be here</Text>
+		</View>
+		
 	</View>
   )
 }
@@ -38,32 +39,21 @@ const styles = StyleSheet.create({
 	   	elevation: 1,
 	   	position: 'relative',
    	},
-	menu: {
-		padding:40,
-		fontSize: 20,
-		position: 'absolute',
-	},
    	data: {
 		padding:50,
-		zIndex: 100,
-		elevation: 100,
+		zIndex: 2,
+		elevation: 2,
 		marginTop: 10,
 		position: 'absolute',
 	},
-	logo: {
-	  width: 250,
-	  height: 80,
-	  borderRadius: 15,
-	  marginBottom: 100,
-	},
-	info: {
-		width: '100%',
-		textAlign: 'left',
-		fontSize: 20,
-		marginTop: 100,
-		padding:10,
-		color: '#000',
-	},
+	// info: {
+	// 	width: '100%',
+	// 	textAlign: 'left',
+	// 	fontSize: 20,
+	// 	marginTop: 100,
+	// 	padding:10,
+	// 	color: '#000',
+	// },
   });
 
 export default Home

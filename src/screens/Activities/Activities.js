@@ -59,9 +59,8 @@ const styles = StyleSheet.create({
 	bg: {
 	 	width: '100%',
 	  	height: '100%',
-	  	justifyContent: 'center',
-	  	alignItems: 'center',
 	  	marginTop: '0%',
+		paddingRight: 20,
 		zIndex: 1,
 		elevation: 1,
 		position: 'relative',
