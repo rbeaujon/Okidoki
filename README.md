@@ -1,4 +1,4 @@
-The following project is an application created in React Native version 0.69.6 using Expo ~46.0.13 and handles 3 Random APIs and one  Use API created on PHP and MySQL for authentications.
+The following project is an application created in React Native version 0.69.6 using Expo ~46.0.13 and handles 3 Random APIs and one  Users API created on PHP and MySQL for authentications.
 <p>
 The App has unit testing for all modules with JEST using react testing library: ^13.4.0 and Jest Dom ^5.16.5.
 <p>
@@ -7,6 +7,8 @@ The API are:
 Activities: https://www.boredapi.com/api/activity
 Dogs: https://dog.ceo/api/breeds/image/random
 Jokes: https://official-joke-api.appspot.com/random_joke
+
+Users: http://api.rbeaujon.com/users/
 
 ## Technical details
 
