@@ -12,7 +12,7 @@ const Login = (props) => {
   const [user, setUser] = useContext(LoginContext);
   const [pass, setPass] = useState('');
   
-props.Logout && setUser('') && setPass('')
+ 
 
   const signIn = async () => {
     
@@ -53,12 +53,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 20,
     padding: 50,
+    backgroundColor: '#3f3f3f',
+    height: '100%',
   },
   logo: {
     width: 250,
     height: 80,
     borderRadius: 15,
     marginBottom: 100,
+    backgroundColor: '#fff',
+    marginTop: 70,
   },
 });
 
