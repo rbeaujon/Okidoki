@@ -18,26 +18,26 @@ Back-End: PHP, MySQL.
 ## Views
 
 ### Entertainment Points
-
+ 
 #### Jokes
 
-<img src="/assets/documentation/screens/jokes.png" width="80%">
+<img src="/assets/documentation/screens/jokes.png" width="25%"> 
 
 #### Dogs
 
-<img src="/assets/documentation/screens/dogs.png" width="45%">
+<img src="/assets/documentation/screens/dogs.png" width="25%">
 
 #### Activities
 
-<img src="/assets/documentation/screens/activities.png width="40%">
+<img src="/assets/documentation/screens/activities.png" width="25%">
 
 ### Home
 
-<img src="/assets/documentation/screens/welcome.png" width="80%">
+<img src="/assets/documentation/screens/welcome.png" width="25%">
 
 ### Login
 
-<img src="/assets/documentation/screens/login.png" width="45%">
+<img src="/assets/documentation/screens/login.png" width="25%">
 
 
 ## Available Scripts
