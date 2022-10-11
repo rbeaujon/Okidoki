@@ -10,9 +10,9 @@ Jokes: https://official-joke-api.appspot.com/random_joke
 
 Users: http://api.rbeaujon.com/users/
 
-Login: 
- user: testing@rbeaujon.com
- pass: 1234
+ #### Login 
+ <p>user: testing@rbeaujon.com
+ <p>pass: 1234
 
 ## Technical details
 
