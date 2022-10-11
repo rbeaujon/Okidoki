@@ -10,6 +10,10 @@ Jokes: https://official-joke-api.appspot.com/random_joke
 
 Users: http://api.rbeaujon.com/users/
 
+Login: 
+ user: testing@rbeaujon.com
+ pass: 1234
+
 ## Technical details
 
 Front-End: React Native, JS and CSS.
